@@ -7,11 +7,12 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Fadel - AI Engineer & System Developer",
-  description:
-    "Portfolio of Fadel, an Informatics Engineering student building AI-powered and system-driven tools. Showcasing projects in machine learning, distributed systems, and full-stack development.",
-  keywords: ["AI Engineer", "Machine Learning", "System Developer", "Full Stack", "Portfolio"],
   authors: [{ name: "Fadel" }],
-    generator: 'v0.dev'
+  icons: {
+    icon: "/icon-f.svg",
+    shortcut: "/icon-f.svg",
+    apple: "/icon-f.svg",
+  },
 }
 
 export const viewport = {
