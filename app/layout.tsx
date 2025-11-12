@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: "Fadel Portfolio",
   authors: [{ name: "Fadel" }],
   icons: {
-    icon: "/icon-f.svg",
-    shortcut: "/icon-f.svg",
-    apple: "/icon-f.svg",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
 }
 
