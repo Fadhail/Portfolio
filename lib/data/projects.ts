@@ -25,4 +25,12 @@ export const projects: Project[] = [
     github: "https://github.com/Fadhail/Absenza",
     demo: null,
   },
+  {
+    title: "Arduino Drone",
+    description:
+      "A DIY quadcopter drone built using Arduino for flight control. The project involves integrating sensors like the MPU-6050 gyroscope and accelerometer for stability, along with electronic speed controllers (ESC) and brushless motors for propulsion. This drone serves as a platform for learning about UAV technology, flight dynamics, and embedded systems programming.",
+    tech: ["Arduino UNO", "Gryo MPU-6050", "ESC 30A", "Brushless Motor 1400kv"],
+    github: "#",
+    demo: null,
+  },
 ];

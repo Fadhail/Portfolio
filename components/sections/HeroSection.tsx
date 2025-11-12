@@ -18,7 +18,7 @@ export function HeroSection({ scrollToSection }: HeroSectionProps) {
             Hi, I'm <span className="text-emerald-400">Fadel</span>
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            An Informatics Engineering <span className="text-emerald-400">student</span> passionate about <span className="text-emerald-400">technology.</span> 
+            An Informatics Engineering <span className="text-emerald-400">student</span> passionate about <span className="text-emerald-400">technology.</span>
           </p>
           <motion.button
             onClick={() => scrollToSection(SECTION_IDS.PROJECTS)}
