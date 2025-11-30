@@ -33,4 +33,13 @@ export const projects: Project[] = [
     github: "#",
     demo: null,
   },
+  {
+    title: "GeoFlow",
+    description:
+      "A real-time location tracking application that monitors journeys from mobile devices and displays them on an interactive web-based map. Built with Leaflet for mapping capabilities, GeoFlow enables users to track travel routes, view movement history, and analyze trip patterns through an intuitive web interface.",
+    tech: ["Next.js", "Golang", "Leaflet", "MongoDB"],
+    github: "#",
+    demo: null,
+  },
 ];
+
