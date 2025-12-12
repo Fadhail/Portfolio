@@ -38,7 +38,15 @@ export const projects: Project[] = [
     description:
       "A real-time location tracking application that monitors journeys from mobile devices and displays them on an interactive web-based map. Built with Leaflet for mapping capabilities, GeoFlow enables users to track travel routes, view movement history, and analyze trip patterns through an intuitive web interface.",
     tech: ["Next.js", "Golang", "Leaflet", "MongoDB"],
-    github: "#",
+    github: "https://github.com/Fadhail/frontend-GeoFlow.git",
+    demo: null,
+  },
+  {
+    title: "AerialCast",
+    description:
+      "AerialCast is a full-stack IoT platform engineered for long-range UAV telemetry and mission management, leveraging ESP32-based LoRa communication for reliable data transmission in off-grid environments. The architecture bridges edge hardware to the cloud via MQTT and a robust Flask backend, utilizing PostgreSQL for optimized time-series data storage. Featuring an interactive dashboard built with Next.js, AerialCast delivers real-time visualization of critical flight metrics—such as GPS coordinates and battery status—creating a modern, scalable, and responsive Ground Control Station (GCS) solution for autonomous drone operations.",
+    tech: ["ESP32", "LoRa", "MQTT", "Python", "Flask", "PostgreSQL", "Next.js"],  
+    github: "https://github.com/Astheria23/AerialCast.git",
     demo: null,
   },
 ];
